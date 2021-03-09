@@ -7,6 +7,10 @@
     <groupId>me.automation.learning</groupId>
     <artifactId>first-lesson</artifactId>
     <version>1.0</version>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
     <build>
         <pluginManagement>
             <plugins>
@@ -21,10 +25,10 @@
             </plugins>
         </pluginManagement>
     </build>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
+    <dependencies>
+        
+    </dependencies>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
