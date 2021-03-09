@@ -10,6 +10,8 @@ public class Main {
         stu.setFullName("Thanh An");
         stu.setGender(false);
 //        stu.setBirthday("03-11-1990 00:00:00");
+        System.out.println(stu.getFullName());
+        System.out.println(stu.isGender());
 
     }
 }
